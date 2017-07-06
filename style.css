@@ -1,5 +1,6 @@
 @media screen and (max-width:1920px){
     body {
+        background-color: black;
         margin: 0;
     }
     html, body, main { 
@@ -45,6 +46,7 @@
 
     nav img {
         width: 140px;
+        height: 90%;
         position: absolute;
         left: 10%;
         top: 5%;
@@ -341,7 +343,7 @@
         font-size: 45px;
     }
     #zdjecie2 p {
-        font-size: 16px;
+        font-size: 20px;
     }
     #danekontaktowe {
         font-size: 45px;
@@ -357,5 +359,251 @@
     }
     textarea::placeholder {
         font-size: 12px;
+    }
+
+    #kontakt {
+        height: auto;
+    }
+    #danekontaktowe,#formularz {
+        width:90%;
+        padding: 5%;
+    }
+    #danekontaktowe {
+        float:none;
+    }
+    #zdjecie2 > div {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .menu li{
+        font-size: 15px;
+    }
+    #zdjecie1 header {
+        font-size: 43px;
+    }
+    #zdjecie2 header > div {
+        font-size: 43px;
+    }
+    #zdjecie2 p {
+        font-size: 20px;
+    }
+    #danekontaktowe {
+        font-size: 43px;
+    }
+    #danekontaktowe article{
+        font-size: 15px;
+    }
+    #submit {
+        font-size: 15px;
+    }
+    input::placeholder {
+        font-size: 11px;
+    }
+    textarea::placeholder {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 736px){
+    .menu li{
+        font-size: 15px;
+    }
+    #zdjecie1 header {
+        font-size: 43px;
+    }
+    #zdjecie2 header > div {
+        font-size: 43px;
+    }
+    #zdjecie2 p {
+        font-size: 20px;
+    }
+    #danekontaktowe {
+        font-size: 43px;
+    }
+    #danekontaktowe article{
+        font-size: 15px;
+    }
+    #submit {
+        font-size: 15px;
+    }
+    input::placeholder {
+        font-size: 11px;
+    }
+    textarea::placeholder {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 694px){
+    .menu li{
+        font-size: 14px;
+    }
+    #zdjecie1 header {
+        font-size: 42px;
+    }
+    #zdjecie2 header > div {
+        font-size: 42px;
+    }
+    #zdjecie2 p {
+        font-size: 19px;
+    }
+    #danekontaktowe {
+        font-size: 42px;
+    }
+    #danekontaktowe article{
+        font-size: 14px;
+    }
+    #submit {
+        font-size: 14px;
+    }
+    input::placeholder {
+        font-size: 10px;
+    }
+    textarea::placeholder {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 667px){
+    .menu li{
+        font-size: 14px;
+    }
+    #zdjecie1 header {
+        font-size: 42px;
+    }
+    #zdjecie2 header > div {
+        font-size: 42px;
+    }
+    #zdjecie2 p {
+        font-size: 19px;
+    }
+    #danekontaktowe {
+        font-size: 42px;
+    }
+    #danekontaktowe article{
+        font-size: 14px;
+    }
+    #submit {
+        font-size: 14px;
+    }
+    input::placeholder {
+        font-size: 10px;
+    }
+    textarea::placeholder {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 507px){
+    .menu li{
+        font-size: 13px;
+    }
+    #zdjecie1 header {
+        font-size: 40px;
+    }
+    #zdjecie2 header > div {
+        font-size: 40px;
+    }
+    #zdjecie2 p {
+        font-size: 18px;
+    }
+    #danekontaktowe {
+        font-size: 40px;
+    }
+    #danekontaktowe article{
+        font-size: 13px;
+    }
+    #submit {
+        font-size: 13px;
+    }
+    input::placeholder {
+        font-size: 9px;
+    }
+    textarea::placeholder {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 438px){
+    .menu li{
+        font-size: 12px;
+    }
+    #zdjecie1 header {
+        font-size: 37px;
+    }
+    #zdjecie2 header > div {
+        font-size: 37px;
+    }
+    #zdjecie2 p {
+        font-size: 17px;
+    }
+    #danekontaktowe {
+        font-size: 37px;
+    }
+    #danekontaktowe article{
+        font-size: 12px;
+    }
+    #submit {
+        font-size: 12px;
+    }
+    input::placeholder {
+        font-size: 8px;
+    }
+    textarea::placeholder {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 375px){
+    .menu li{
+        font-size: 15px;
+    }
+    #zdjecie1 header {
+        font-size: 43px;
+    }
+    #zdjecie2 header > div {
+        font-size: 43px;
+    }
+    #zdjecie2 p {
+        font-size: 20px;
+    }
+    #danekontaktowe {
+        font-size: 43px;
+    }
+    #danekontaktowe article{
+        font-size: 15px;
+    }
+    #submit {
+        font-size: 15px;
+    }
+    input::placeholder {
+        font-size: 11px;
+    }
+    textarea::placeholder {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 320px){
+    .menu li{
+        font-size: 15px;
+    }
+    #zdjecie1 header {
+        font-size: 43px;
+    }
+    #zdjecie2 header > div {
+        font-size: 43px;
+    }
+    #zdjecie2 p {
+        font-size: 20px;
+    }
+    #danekontaktowe {
+        font-size: 43px;
+    }
+    #danekontaktowe article{
+        font-size: 15px;
+    }
+    #submit {
+        font-size: 15px;
+    }
+    input::placeholder {
+        font-size: 11px;
+    }
+    textarea::placeholder {
+        font-size: 11px;
     }
 }
