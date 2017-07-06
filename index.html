@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="windows-1250">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/smoothScroll.js"></script>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <img src="img/Logo3.png" alt="logo"/>
+                <ul class="menu">
+                    <li><a href="#home">Meblomex</a></li>
+                    <li><a href="#onas">O nas</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+            <section id="home">
+                <div id="zdjecie1" class="parallax">
+                    <header>
+                        <div>
+                            Lorem ipsum
+                        </div>
+                    </header>
+                </div>
+            </section>
+            <div id="zdjecia">
+                <img src="img/2017-03-31-11-17-05.jpg" alt="" />
+                <img src="img/couch-furniture-living-room-sofa.jpg" alt="" />
+                <img src="img/pexels-photo-262040.jpeg" alt="" />
+                <!--<img src="img/dining-room-1078895_960_720.jpg" alt="" />-->
+            </div>
+            <section id="onas">
+                <div id="zdjecie2" class="parallax">
+                    <div>
+                        <header>
+                            <div>
+                                O nas
+                            </div>
+                        </header>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section id="kontakt">
+                <div>
+                    <div id="formularz">
+                        <form>
+                            <input type="text" placeholder="Imię"><br/>
+                            <input type="text" placeholder="E-mail"><br/>
+                            <input type="text" placeholder="Temat"><br/>
+                            <textarea placeholder="Treść"></textarea><br/>
+                            <button id="submit" type="submit">Wyślij</button>
+                        </form>
+                    </div>
+                    <div id="danekontaktowe">
+                        <header>
+                            <div>Kontakt</div>
+                        </header>
+                        <article>
+                            <p> ul. Przykładowa 6<br/>
+                                00-000 Żory<br/></p><p>
+                                Telefon: 111 111 111<br/>
+                                E-mail: example@info.pl</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script>
+            $('a[href^="#"]').on('click', function (e) {
+                var el = $(e.target.getAttribute('href'));
+                var elOffset = el.offset().top;
+                var elHeight = el.height();
+                var offset = elOffset;
+                $.smoothScroll({
+                    speed: 700
+                }, offset);
+                return false;
+            });
+        </script>
+    </body>
+</html>
