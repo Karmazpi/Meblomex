@@ -1,0 +1,3872 @@
+.wow {
+    visibility: hidden;
+}
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+/*////////////////////////////////////////////////////*/
+
+@media screen and (max-width:1920px){
+    #menu {
+        width: 70%;
+        height: 100px;
+        line-height: 100px;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 15%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 25px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 25px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 95%;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 25px;
+        width: 200px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 240px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 70%;
+        width: 70%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 25%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 70%;
+        width: 70%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 70%;
+        width: 70%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 300px;
+    }
+}
+
+/*//////////////////////////////////////////*/
+
+@media screen and (max-width: 1366px){
+    #menu {
+        width: 70%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 15%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 95%;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 170px;
+        font-size: 17px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 165px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 70%;
+        width: 70%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 70%;
+        width: 70%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 70%;
+        width: 70%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 250px;
+    }
+}
+
+/*////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1200px){
+    #menu {
+        width: 70%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 15%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 95%;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 140px;
+        font-size: 17px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 165px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 70%;
+        width: 70%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 70%;
+        width: 70%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 40px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 70%;
+        width: 70%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 200px;
+    }
+}
+
+/*/////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1080px) {
+    #menu {
+        width: 100%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 95%;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 12    0px;
+        font-size: 17px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 165px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 55px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 230px;
+    }
+}
+
+
+/*//////////////////////////////////////////////*/
+
+@media screen and (max-width: 1024px) {
+    #menu {
+        width: 100%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 95%;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 12    0px;
+        font-size: 17px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 165px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 55px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 230px;
+    }
+}
+
+
+/*///////////////////////////////////////////////*/
+
+@media screen and (max-width: 800px) {
+    #menu {
+        width: 100%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 95%;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 12    0px;
+        font-size: 17px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 135px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 40px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 230px;
+    }
+}
+
+
+/*///////////////////////////////////////////////*/
+
+@media screen and (max-width: 768px) {
+    #menu {
+        width: 100%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 95%;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 12    0px;
+        font-size: 17px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 135px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 40px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 230px;
+    }
+}
+
+
+/*//////////////////////////////////////////////*/
+
+@media screen and (max-width: 736px) {
+    #menu {
+        width: 100%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 90%;
+        width: 130%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 100px;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 135px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 40px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 230px;
+    }
+}
+
+
+/*//////////////////////////////////////////////*/
+
+@media screen and (max-width: 694px) {
+    #menu {
+        width: 100%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 90%;
+        width: 130%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 100px;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 120px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 35px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 200px;
+    }
+}
+
+
+/*///////////////////////////////////////////////*/
+
+@media screen and (max-width: 667px) {
+    #menu {
+        width: 100%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 95%;
+        width: 33%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 90%;
+        width: 130%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 100px;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 120px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 450px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 450px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 35px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 200px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #naglowek2 {
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 200px;
+    }
+}
+
+
+/*//////////////////////////////////////////////*/
+
+@media screen and (max-width: 507px) {
+    #menu {
+        width: 100%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 50%;
+        width: 23%;
+        margin-top: 3%;
+        float: left;
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+
+    #logo img {
+        height: 90%;
+        width: 130%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 90px;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 90px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 3% 0%;
+        margin-top: -2%;
+        line-height: 1.5;
+        vertical-align: top;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 300px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 350px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 25px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 100px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 30px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    #naglowek2 {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 200px;
+    }
+}
+
+
+/*/////////////////////////////////////////////////*/
+
+@media screen and (max-width: 438px) {
+    #menu {
+        width: 100%;
+        height: 70px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 40%;
+        width: 30%;
+        margin-top: 3%;
+        float: left;
+        position: absolute;
+        top: 10%;
+        left: 2%;
+    }
+
+    #logo img {
+        height: 90%;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 0;
+        float: right;
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 90px;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    #menu2 {
+        float: right;
+    }
+
+    #li1 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li2 {
+        float: left;
+        display:inline-block;
+    }
+
+    #li3 {
+        float: left;
+        display:inline-block;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 80px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 0% 0%;
+        line-height: 1.5;
+        vertical-align: middle;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 300px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 350px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 25px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 100px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 30px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    #naglowek2 {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 160px;
+    }
+}
+
+
+/*////////////////////////////////////////////*/
+
+@media screen and (max-width: 375px) {
+    #menu {
+        width: 100%;
+        height: 277px;
+        line-height: 70px !important;
+        background-color: white;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0%;
+        z-index: 10;
+    }
+    #adres {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top:5%;
+    }
+    #telefon {
+        float: left;
+        line-height: 1.5;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        padding-top:5%;
+
+    }
+    #domek {
+        width: 10%;
+    }
+    #malpa {
+        width: 10%;
+    }
+
+    #logo {
+        height: 20%;
+        width: 70%;
+/*
+        float: left;
+        position: absolute;
+*/
+        top: 0%;
+        left: 15%;
+    }
+
+    #logo img {
+        height: 90%;
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+
+    #menu>ul {
+        
+        list-style-type: none;
+/*        display: inline-block;*/
+        margin-top: 18%;
+        margin-right: 0;
+/*        float: right;*/
+    }
+
+
+    #menu>ul>li>a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        width: 100%;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;    
+        transition: 0.8s;
+        letter-spacing: 1px;
+    }
+    .menu2 {
+        position: absolute;
+        left: 2%;
+/*        float: right;*/
+    }
+
+    #li1 {
+        width: 100%;
+    }
+
+    #li2 {
+        width: 100%;
+    }
+
+    #li3 {
+        width: 100%;
+    }
+
+    #menu>ul>li>a:hover {
+        background-color: gray;
+        color: white;
+        min-width: 100%;
+    }
+
+    #onas>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #uslugi>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #portfolio>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #kontakt>div {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -10px 10px -10px;
+    }
+
+    #galeria {
+        position: relative;
+    }
+
+    .uslugi {
+        padding-bottom: 5%;
+    }
+    .obrazek {
+        display: inline-block;
+        width: 28%;
+        height: 80px;
+        margin-right: 0;
+        padding: 2%;
+        position: sticky;
+    }
+
+    .obrazek img {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5.5%;
+        z-index: 1;
+        position: sticky;
+    }
+    #naglowek-uslugi {
+        text-align: center;
+        padding-top: 5%;
+    }
+    button {
+        visibility: visible;
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 5px;
+        text-align: center;
+        background-repeat: repeat-x;
+        color: white;
+        padding-top: 10px;
+        top: 1%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: black;
+        line-height: 50px;
+        text-align: center;
+        position: fixed;
+        right: 10%;
+        z-index: 10;
+    }
+
+    .pasy {
+        background-color: white;
+        border-radius: 1px 1px 1px 1px;
+        display: block;
+        height: 2px;
+        width: 18px;
+        margin: 4px auto;
+        z-index: 10;
+    }
+
+    #paski {
+        margin-bottom: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .kolor>div {
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tekst p {
+        text-align: justify;
+        max-width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+
+    .www span {
+        font-weight: 600;
+    }
+
+    .www {
+        display: inline-block;
+        width: 23%;
+        margin: 0 3%;
+        margin-left: 5%;
+        padding: 0% 0%;
+        line-height: 1.5;
+        vertical-align: middle;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        clear: both;
+    }
+
+    .parallax h1 {
+        height: 300px;
+        vertical-align:middle;
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 350px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 25px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .parallax h2 {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        line-height: 100px;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        font-size: 30px;
+        text-shadow: 3px 3px #000;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #tytul {
+        background-image: url("img/3.jpg");
+        background-position:bottom;
+        vertical-align:middle;
+    }
+
+    #naglowek {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    #naglowek2 {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    #stopka {
+        clear: both;
+        background-color: white;
+        height: 50px;
+        min-width: 100%;
+        width: 100%;
+        margin: auto;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        box-shadow: 0px -10px 10px -10px
+    }
+
+    #wizytowka{
+        width:70%!important;
+        height: 160px;
+    }
+}
+
+
+/*///////////////////////////////////////////////*/
+
+@media screen and (max-width: 320px) {
+  
+}
