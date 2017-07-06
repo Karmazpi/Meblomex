@@ -10,6 +10,7 @@
     }
     * {
         font-family: "Roboto", sans-serif;
+        font-weight: 400;
     }
     .parallax {
         background-attachment: fixed;
@@ -238,10 +239,10 @@
         font-size: 20px;
     }
     input::placeholder {
-        font-size: 18px;
+        font-size: 12px;
     }
     textarea::placeholder {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 1200px){
