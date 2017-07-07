@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-
+ď»ż<!DOCTYPE html>
 <html>
     <head>
         <title>TODO supply a title</title>
-        <meta charset="windows-1250">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" />
         <script src="js/jquery-3.2.1.min.js"></script>
@@ -11,6 +10,29 @@
     </head>
     <body>
         <main>
+<?php
+if (isset($_POST["email"])) {
+    $to = 'woofie1234@interia.pl';
+    $subject = $_POST["temat"];
+    $message = $_POST["tresc"];
+	$telefon = $_POST["telefon"];
+	$message = "Numer telefonu: ".$telefon."  ".$message;
+    $email = $_POST["email"];
+    $headers = 'From: ' . $email . "\r\n" .
+            'Reply-To: ' . $email . "\r\n" .
+            'X-Mailer: PHP/' . phpversion();
+    $success = mail($to, $subject, $message, $headers);
+    if (!$success) {
+        $wynik = error_get_last()['message'];
+    } else {
+        $wynik = "WysĹ‚ano wiadomoĹ›Ä‡ e-mail.";
+        $div = '<div id="mailing" style="position: fixed; width:100%; height: 50px; font-size:30px; text-align:center; z-index: 40; background-color: white;">' . $wynik . '</div>';
+		
+	}
+	echo $div;
+}
+
+?>
             <nav>
                 <img src="img/Logo3.png" alt="logo"/>
                 <ul class="menu"> 
@@ -54,12 +76,13 @@
             <section id="kontakt">
                 <div>
                     <div id="formularz">
-                        <form>
-                            <input type="text" placeholder="Imię"><br/>
-                            <input type="text" placeholder="E-mail"><br/>
-                            <input type="text" placeholder="Temat"><br/>
-                            <textarea placeholder="Treść"></textarea><br/>
-                            <button id="submit" type="submit">Wyślij</button>
+                        <form method="POST" action="" accept-charset="UTF-8">
+                            <input type="text" name="imie" placeholder=" ImiÄ™"><br/>
+							<input type="text" name="telefon" placeholder=" Numer telefonu"><br/>
+                            <input type="email" name="email" placeholder=" E-mail" required><br/>
+                            <input type="text" name="temat" placeholder=" Temat"><br/>
+                            <textarea name="tresc" placeholder=" TreĹ›Ä‡" required></textarea><br/>
+                            <button id="submit" type="submit">WyĹ›lij</button>
                         </form>
                     </div>
                     <div id="danekontaktowe">
@@ -67,8 +90,8 @@
                             <div>Kontakt</div>
                         </header>
                         <article>
-                            <p> ul. Przykładowa 6<br/>
-                                00-000 Żory<br/></p><p>
+                            <p> ul. PrzykĹ‚adowa 6<br/>
+                                00-000 Ĺ»ory<br/></p><p>
                                 Telefon: 111 111 111<br/>
                                 E-mail: example@info.pl</p>
                         </article>
@@ -87,6 +110,10 @@
                 }, offset);
                 return false;
             });
+            $(function () {
+                $("#mailing").delay(4000).fadeOut();
+            });
         </script>
+
     </body>
 </html>
